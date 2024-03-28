@@ -1,0 +1,21 @@
+footer {
+  margin-bottom: 20px;
+}
+footer ul {
+  text-align: center;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+footer ul li {
+  margin: 0 8px;
+}
+footer ul li a {
+  text-decoration: none;
+  font-family: font-seconday;
+  color: #000;
+  font-weight: 600;
+}
+footer ul li a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,46 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 3;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.6901960784);
+  align-items: flex-start;
+  display: none;
+  padding: 20px;
+  width: 300px;
+  height: 100vh;
+  list-style: none;
+}
+.sidebar .xicon img {
+  width: 30px;
+}
+.sidebar li {
+  margin-right: 0;
+  margin-bottom: 12px;
+}
+.sidebar li:hover a:after {
+  width: 100%;
+}
+.sidebar li:hover a {
+  color: #000;
+}
+.sidebar li a {
+  text-decoration: none;
+  color: #ffffff;
+  transition: all linear 0.3s;
+  position: relative;
+  font-family: font-primary;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+.sidebar li a:after {
+  content: " ";
+  position: absolute;
+  height: 2px;
+  width: 0;
+  background: #000;
+  bottom: 0;
+  left: 0;
+  transition: all linear 0.3s;
+}

@@ -1,0 +1,26 @@
+footer {
+
+    margin-bottom: 20px;
+    ul {
+        text-align: center;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+
+        li {
+
+            margin: 0 8px;
+
+            a {
+                text-decoration: none;
+                font-family: font-seconday;
+                color: #000;
+                font-weight: 600;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
